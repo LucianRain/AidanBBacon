@@ -54,6 +54,7 @@ header {
     padding: 3% 15% 3% 15%;
     margin-bottom: 2%;
     filter: drop-shadow(0px 5px 4px #171c2b);
+    font-size: 1.3em;
 }
 
 .gallery-parent{
@@ -77,7 +78,7 @@ header {
     object-fit: cover;
     display:flex;
     justify-content: space-between;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 .g-img{
@@ -87,7 +88,7 @@ header {
 }
 
 .gallery-img-wide {
-    width: 29%;
+    width: 33%;
 }
 
 .gallery-img-med {

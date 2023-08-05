@@ -188,86 +188,6 @@ body::-webkit-scrollbar {
     filter:drop-shadow(1px 1px 1px #141e2746)
 }
 
-.row-caption-parent{
-    position: relative;
-}
-
-.row{
-    height: 20vw;
-    /* background-color: purple; */
-    object-fit: cover;
-    display:flex;
-    justify-content: space-between;
-    margin-bottom: 1%;
-}
-
-.row-short{
-    height: 15vw;
-    /* background-color: purple; */
-    object-fit: cover;
-    display:flex;
-    justify-content: space-between;
-    margin-bottom: 1%;
-}
-
-.caption-1{
-    position: absolute;
-    top:85%;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    filter:drop-shadow(1px 1px 1px #141e2746)
-}
-
-.caption-2{
-    position: absolute;
-    top:85%;
-    left: 9.5%;
-    transform: translate(-50%, 0%);
-    filter:drop-shadow(1px 1px 1px #141e2746)
-}
-
-.caption-3{
-    position: absolute;
-    top:85%;
-    left: 60%;
-    transform: translate(-50%, 0%);
-    filter:drop-shadow(1px 1px 1px #141e2746)
-}
-
-.g-img{
-    height: 100%;
-    margin-right: 1%;
-    object-fit: cover;
-    border-radius: 3px;
-}
-
-.img-fit{
-    object-fit: contain;
-}
-
-.gallery-img-wide {
-    width: 33%;
-}
-
-.gallery-img-med {
-    width: 23%;
-}
-
-.gallery-img-thin {
-    width: 19%;
-}
-
-.test{
-    height: 150px;
-    background-color: red;
-    object-fit: cover;
-}
-
-.test-img{
-    width: 100%;
-    height: 100%;
-}
-
 .outline{
     outline-style: solid;
     outline-width: 2px;
@@ -315,17 +235,6 @@ body::-webkit-scrollbar {
     background-color: #dff7ff;
 }
 
-.adjust-up{
-    transform: translate(0, -22%);
-}
-
-.crop-top{
-    margin-top: -5%;
-}
-
-.crop-bottom{
-    margin-bottom: -2%;
-}
 
 .limit-height{
     height: 85%;
@@ -354,26 +263,6 @@ body::-webkit-scrollbar {
     .row{
         display: block;
         height: 100%;
-    }
-    .gallery-img-wide{
-        width: 100%;
-    }
-    .gallery-img-med{
-        width: 100%;
-    }
-    .gallery-img-thin{
-        width: 100%;
-    }
-    .crop-bottom{
-        margin-bottom: 0%;
-    }
-    .row-short{
-        display: block;
-        height: 100%;
-    }
-    .limit-height{
-        margin: 0;
-        padding-top: 0;
     }
     .footer-name{
         display: none;

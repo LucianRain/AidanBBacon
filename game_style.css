@@ -1,0 +1,170 @@
+header {
+    z-index: 2;
+    position: relative;
+
+    height: 20vw;
+    background-image: url('/Images/games_header.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    outline-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: remmedium;
+    background-image: linear-gradient(-100deg, #eea59b, #e2bf74); 
+    color: #ffffff;
+}
+
+.nav-bar{
+    background-color: #2c2828;
+}
+
+.title{
+    color: #ffffff;
+    font-size: 2vw;
+    filter: drop-shadow(0 0 10px #000000);
+}
+
+.container{
+    color:  rgb(44, 40, 40);
+}
+
+.page-blurb{
+    background-color: #2c2828;
+    color: #ffffff;
+}
+
+.games-list{
+    padding: 3%;
+    padding-top: 1.5%;
+    /* background-color: greenyellow; */
+}
+
+.game-links-parent{
+    font-size: 1vw;
+    margin-right: 13%;
+}
+
+.game-link{
+    margin-left: 20%;
+    padding: 8% 25% 8% 25%;
+
+    text-decoration: none;
+    border-radius: 15px;
+    outline-style: solid;
+
+    outline-color:  #2c2828;
+    color: #2c2828;
+    background-color: #ffeae0;
+
+    transition: border-radius 0.1s ease-in-out;
+    transition: background-color 0.4s ease;
+    transition: font-size 0.4s ease;
+}
+
+.game-link:hover{
+    background-color: #5e1f1f;
+    outline-color: #5e1f1f;
+    color: #ffeae0;
+    border-radius: 30px;
+    font-size: 1.1vw;
+}
+
+.game-photo-text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9vw;
+}
+
+.game-header{
+    font-size: 2vw;
+}
+
+.small-padding{
+    margin: 2%;
+}
+
+.game-date{
+    color: #2c282881;
+    font-size: 1.2vw;
+    margin-left: 0%;
+    padding-top: 3%;
+    /* font-style: italic; */
+}
+
+.ground-items{
+    align-items: baseline;
+}
+
+.spacer{
+    height: 0.2vw;
+    background-color: #2c2828;
+    margin: 3% 10% 5% 10%;
+    border-radius: 500%;
+}
+
+.limit-width{
+    width: 30%;
+}
+
+.hori-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game-small-parent{
+    width: 46%;
+    height: 12vw;
+    outline-style: solid;
+    outline-width: 2px;
+    border-radius: 1px;
+    align-items: center;
+    display: flex;
+    padding: 1%;
+    align-items:baseline;
+}
+
+.column{
+    margin: 0 1% 0 1%;
+}
+
+.small-game-img{
+    width: 45%;
+    height: 90%;
+    object-fit: cover;
+    margin: 2%;
+}
+
+.small-game-text{
+}
+
+.category-header{
+    color:#000000c2;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.height-limit-big{
+    height: 12vw;
+}
+
+.height-limit-med{
+    height: 10vw;
+}
+
+.height-limit-small{
+    height: 8.5vw;
+}
+
+.margin-right{
+    margin-right: 1%;
+}
+
+@media (max-width:800px){
+   
+}
+

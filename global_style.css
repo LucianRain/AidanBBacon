@@ -23,30 +23,10 @@
     font-style: normal;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: remmedium;
-    background-image: linear-gradient(-100deg, #89bdc0, #5091d6); 
-    color: #ffffff;
-}
-
 main {
     padding: 20px;
 }
 
-header {
-    z-index: 2;
-    position: relative;
-
-    height: 20vw;
-    background-image: url('/Images/art_header.png'); /* Replace 'your-image-path.jpg' with the path to your full-width image */
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-
-    outline-style: none;
-}
 
 img{
     max-width: 100%;
@@ -56,7 +36,6 @@ body::-webkit-scrollbar {
     overflow: overlay;
 }
 
-/* width */
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -65,8 +44,6 @@ body::-webkit-scrollbar {
     background: #89bdc0;
 }
 
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: #141e27;
 }
@@ -78,6 +55,7 @@ body::-webkit-scrollbar {
     margin: 0;
     width: 100%; 
     font-size: 1vw;
+    transition: font-size 0.5s ease;
     height: 3vw;
 
     display:flex;
@@ -104,13 +82,15 @@ body::-webkit-scrollbar {
     padding: 18px;
     text-decoration: none;
     color: #dff7ff;
+    transition: background-color 0.5s ease;
     /* background-color: red; */
 }
 
 .nav-a:hover {
-    filter: drop-shadow(0 0 16px #dff7ff);
+    filter: drop-shadow(0 0 10px #dff7ff);
     background-color: #dff7ff;
     color: #141e27;
+    font-size: 1.1vw;
 }
 
 .nav-label{

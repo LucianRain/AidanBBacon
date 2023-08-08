@@ -73,6 +73,30 @@ body {
     font-size: 1.1vw;
 }
 
+.small-game-link{
+    padding: 2% 12% 2% 12%;
+    font-size: 0.7vw;
+
+    text-decoration: none;
+    border-radius: 30px;
+    outline-style: solid;
+    outline-width: 2px;
+
+    outline-color:  #2c2828;
+    color: #2c2828;
+    background-color: #ffeae0;
+
+    transition: border-radius 0.4s ease-in-out;
+    transition: background-color 0.4s ease;
+}
+
+.small-game-link:hover{
+    background-color: #5e1f1f;
+    outline-color: #5e1f1f;
+    color: #ffeae0;
+    border-radius: 30px;
+}
+
 .game-photo-text{
     display: flex;
     justify-content: space-between;
@@ -81,6 +105,9 @@ body {
 
 .game-header{
     font-size: 2vw;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .small-padding{
@@ -125,21 +152,41 @@ body {
     align-items: center;
     display: flex;
     padding: 1%;
-    align-items:baseline;
+    outline-color: #ffeae0;
+    margin-bottom: 1%;
+
+    background-color: #ffffff2d;
+    transition: background-color 0.3s ease;
+}
+
+.game-small-parent:hover{
+    background-color: #ffffff62;
 }
 
 .column{
     margin: 0 1% 0 1%;
 }
 
+.space-evenly{
+    justify-content: space-evenly;
+}
+
 .small-game-img{
     width: 45%;
     height: 90%;
-    object-fit: cover;
+    object-fit: contain;
     margin: 2%;
+    margin-left: -2%;
+}
+
+.small-game-header{
+    font-size: 1.1vw;
+    margin-bottom: 10%;
 }
 
 .small-game-text{
+    width: 55%;
+    font-size: 0.9vw;
 }
 
 .category-header{
